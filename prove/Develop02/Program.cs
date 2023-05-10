@@ -1,9 +1,14 @@
-using System;
-
-class Program
+namespace Develop02
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop02 World!");
+        static void Main(string[] args)
+        {
+            bool running = true;
+            while(running == true)
+            {
+                Prompts prompt = new Prompts();
+            }
+        }
     }
 }
